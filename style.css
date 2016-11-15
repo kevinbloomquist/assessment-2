@@ -10,9 +10,10 @@ aside {
 	position:relative;
 }
 
+
+
 .main{
 	height:630px;
-	background-image: url("https://s3.amazonaws.com/stranger-things/landing-page.png");
 	margin:0;
 	min-width:100%;
 	min-height:100%;
@@ -26,25 +27,31 @@ aside {
 	top:0;
 	left:0;
 	width: 100%;
-	color:red;
+	color:rgba(255,0,0,.7);
+}
+
+a {
+	color:rgba(255,0,0,.7);
 }
 
 .boldRed{
 	font-weight: bold;
 	margin-top:20px;
-	color:red;
+	color:rgba(255,0,0,.7);
 }
 
 #directions {
-	color:red;
+	color:rgba(255,0,0,.7);
 	font-weight: bold;
 	margin-top:40%;
 	text-align: center;
 	height:60px;
+	width:40%;
+	margin-left: 30%;
 }
 
 #elle{
-	background:red;
+	background:rgba(255,0,0,.7);
 	height:50px;
 	width:50px;
 	border-radius:25px;
@@ -54,7 +61,8 @@ aside {
 }
 
 #drBrenner {
-	background:red;
+	background:rgba(255,0,0,.7);
+
 	height:50px;
 	width:50px;
 	border-radius:25px;
