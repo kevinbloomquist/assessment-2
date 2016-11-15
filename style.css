@@ -34,3 +34,34 @@ body {
 	text-align: center;
 	height:60px;
 }
+
+#elle{
+	background:red;
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#drBrenner {
+	background:red;
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#will{
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	background:rgba(255,255,255,.5);
+	position:absolute;
+	top:50%;
+	right:100px;
+}
+
