@@ -1,5 +1,6 @@
 body {
-
+background-size: cover;
+background-repeat:no-repeat;
 }
 aside {
 	background-color:rgba(255,255,255,.3);
@@ -79,6 +80,23 @@ a {
 	position:absolute;
 	top:50%;
 	right:100px;
+}
+
+@media (width: 400px) {
+
+  #drBrenner {
+    background:rgba(255,255,255,.8);
+  }
+
+  #elle {
+    background:rgba(255,255,255,.8);
+  }
+
+
+  aside {
+  	width:100%;
+  }
+
 }
 
 
