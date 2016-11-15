@@ -24,8 +24,8 @@ console.log(getwill);
 
 // creave variables and functions for position and movement
 var currentPosA = 0;
-var moveA = function(currentPosA){
-	currentPosA+=5;
+var moveA = function(){
+	currentPosA+=10;
 	console.log("key!!");
 	console.log(currentPosA);
 };
@@ -34,7 +34,9 @@ console.log(moveA(currentPosA));
 
 var currentPosB = 0;
 var moveB = function(){
-	currentPosB+=5;
+	currentPosB+=10;
+	console.log("key!!");
+	console.log(currentPosB);
 };
 console.log(moveB(currentPosB));
 
@@ -52,8 +54,20 @@ console.log(moveB(currentPosB));
 
 
 
-document.addEventListener("keydown", function(){moveA(currentPosA);});
-getElle.setAttribute("style","left:"+currentPosA+"px");
+document.addEventListener("keydown", function(){
+	if (event.keyCode ==49) {
+		moveA(currentPosA);
+		getElle.setAttribute("style","left:"+currentPosA+"px");
+	
+	}else if (event.keyCode ==48){
+		moveB(currentPosB);
+		getdrBrenner.setAttribute("style","left:"+currentPosB+"px");
+
+	}else{
+console.log("wrong key!");
+		}
+});
+
 console.log(currentPosA);
 
 
