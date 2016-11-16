@@ -4,7 +4,7 @@ background-size: cover;
 background-repeat:no-repeat;
 }
 
-/*styling for "The Underneath"*/
+/*styling for "The Upside down"*/
 aside {
 	background-color:rgba(255,255,255,.3);
 	float:right;
@@ -86,7 +86,7 @@ a {
 	right:100px;
 }
 
-/*media query for compressed window. Puts everyone in "The Underneath"*/
+/*media query for compressed window. Puts everyone in "The Upside down"*/
 @media (width: 400px) {
 
   #drBrenner {
