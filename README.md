@@ -3,8 +3,8 @@ title: JavaScript Racer
 type: lab
 duration: Weekend
 creator:
-    name: Alex White
-    city: SF
+    name: Kevin Bloomqust
+    city: Denver
 --->
 
 # JavaScript Racer
@@ -20,12 +20,12 @@ You will be working individually for this assignment, but we'll be guiding you a
 
 #### Requirements
 
-- Your game should have two pages: a landing page and a game page
-- Include separate HTML, CSS, JavaScript files
-- Choose an existing landing page on the web; screen shot the landing page, and replicate its design to create a separate game landing page that links to your game\*
-- Style your landing page and game page with class-based CSS
-- Include a media query for a tablet to make your pages responsive
-- Your game page must have at least two player objects
+- Your game should have two pages: a landing page and a game page *
+- Include separate HTML, CSS, JavaScript files *
+- Choose an existing landing page on the web; screen shot the landing page, and replicate its design to create a separate game landing page that links to your game *
+- Style your landing page and game page with class-based CSS *
+- Include a media query for a tablet to make your pages responsive *
+- Your game page must have at least two player objects*
 - Your game must have a clear win condition
 - Comment your code appropriately
 - Adhere to the [AirBnB style guide](https://github.com/airbnb/javascript) for writing your JavaScript
@@ -35,7 +35,7 @@ You will be working individually for this assignment, but we'll be guiding you a
 
 **Bonus:**
 
-- Use images to create a background and/or players
+- Use images to create a background and/or players*
 - Score each game based on the time it took to complete and by how much time they beat the opposing player
 - Display the time it took for the player to complete the race
 - Make a 'Best of 3' tournament and display the winner of the tournament
